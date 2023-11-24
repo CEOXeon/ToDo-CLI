@@ -43,6 +43,9 @@ todo.load_todo_list()
 
 # Save Todo List to a file
 todo.save_todo_list(<ToDo List Object>)
+
+# Let the Module take care of everything
+todo.main()
 ```
 
 ```<ToDo List Object>``` Is the Todo List (Python Class: List)
