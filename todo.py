@@ -63,6 +63,9 @@ def main():
         print("3. Remove Task")
         print("4. Exit")
         print("=====================")
+        print()
+        print(f"Debug Info: {type(todo_list)}")
+        print()
         choice = input("Enter your choice (1-4): ")
         if choice == "1":
             display_todo_list(todo_list)

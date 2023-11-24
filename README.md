@@ -45,3 +45,9 @@ todo.load_todo_list()
 # Save Todo List to a file
 todo.save_todo_list(<ToDo List Object>)
 ```
+
+```<ToDo List Object>``` Is the Todo List (Python Class: List)
+
+```<Task Object>``` Is the Task (Python Class: String)
+
+```<Task Number>``` Is the Number of the Task (Python Class: Integer)
