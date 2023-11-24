@@ -8,26 +8,25 @@
 
 ### Use it as it is
 
-**Clone the Repository**
+#### **Clone the Repository**
 
-```bash	
+```bash
 git clone https://github.com/CEOXeon/ToDo-CLI.git
 ```
 
-**Use it right away**
+#### **Use it right away**
 
 ```bash
 python3 todo.py
 ```
 
-
----
 ---
 ---
 
 ### Use it in your python project
 
 ```python
+# Import the todo module
 import todo
 
 # Display the Todo List
