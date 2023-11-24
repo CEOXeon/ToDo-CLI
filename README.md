@@ -16,25 +16,43 @@
 
     python3 todo.py
 
+
+
+
 ### Use it in your python project
 
     import todo
+
+
+
 
 **Display the Todo List**
 
     todo.display_todo_list(<ToDo List Object>)
 
+
+
+
 **Add Task to the Todo List**
 
     todo.add_task(<ToDo List Object>, <Task Object>)
+
+
+
 
 **Remove Task from the Todo List**
 
     todo.remove_task(<ToDo List Object>, <Task Number>)
 
+
+
+
 **Load Todo List from a file**
 
     todo.load_todo_list()`
+
+
+
 
 **Save Todo List to a file**
 
