@@ -10,14 +10,20 @@
 
 **Clone the Repository**
 
+```bash	
     git clone https://github.com/CEOXeon/ToDo-CLI.git
+```
 
 **Use it right away**
 
+```bash
     python3 todo.py
+```
 
 
-
+---
+---
+---
 
 ### Use it in your python project
 
