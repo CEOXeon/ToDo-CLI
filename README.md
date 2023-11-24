@@ -29,44 +29,19 @@ python3 todo.py
 
 ```python
 import todo
-```
 
----
-
-**Display the Todo List**
-
-```python
+# Display the Todo List
 todo.display_todo_list(<ToDo List Object>)
-```
 
----
-
-**Add Task to the Todo List**
-
-```python
+# Add Task to the Todo List
 todo.add_task(<ToDo List Object>, <Task Object>)
-```
 
----
-
-**Remove Task from the Todo List**
-
-```python
+# Remove Task from the Todo List
 todo.remove_task(<ToDo List Object>, <Task Number>)
-```
 
----
+# Load Todo List from a file
+todo.load_todo_list()
 
-**Load Todo List from a file**
-
-```python
-todo.load_todo_list()`
-```
-
----
-
-**Save Todo List to a file**
-
-```python
+# Save Todo List to a file
 todo.save_todo_list(<ToDo List Object>)
 ```
