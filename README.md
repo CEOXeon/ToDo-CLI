@@ -11,13 +11,13 @@
 **Clone the Repository**
 
 ```bash	
-    git clone https://github.com/CEOXeon/ToDo-CLI.git
+git clone https://github.com/CEOXeon/ToDo-CLI.git
 ```
 
 **Use it right away**
 
 ```bash
-    python3 todo.py
+python3 todo.py
 ```
 
 
@@ -28,7 +28,7 @@
 ### Use it in your python project
 
 ```python
-    import todo
+import todo
 ```
 
 ---
@@ -36,7 +36,7 @@
 **Display the Todo List**
 
 ```python
-    todo.display_todo_list(<ToDo List Object>)
+todo.display_todo_list(<ToDo List Object>)
 ```
 
 ---
@@ -44,7 +44,7 @@
 **Add Task to the Todo List**
 
 ```python
-    todo.add_task(<ToDo List Object>, <Task Object>)
+todo.add_task(<ToDo List Object>, <Task Object>)
 ```
 
 ---
@@ -52,7 +52,7 @@
 **Remove Task from the Todo List**
 
 ```python
-    todo.remove_task(<ToDo List Object>, <Task Number>)
+todo.remove_task(<ToDo List Object>, <Task Number>)
 ```
 
 ---
@@ -60,7 +60,7 @@
 **Load Todo List from a file**
 
 ```python
-    todo.load_todo_list()`
+todo.load_todo_list()`
 ```
 
 ---
@@ -68,5 +68,5 @@
 **Save Todo List to a file**
 
 ```python
-    todo.save_todo_list(<ToDo List Object>)
+todo.save_todo_list(<ToDo List Object>)
 ```
